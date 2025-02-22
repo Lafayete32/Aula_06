@@ -1,0 +1,41 @@
+*{
+  margin: 0;  
+}
+header h1 {
+    background-color: #20130a;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 50px
+}
+
+.Maria {
+    background-color: #142026;
+    font-size: 80px;
+}
+
+section p {
+    color: white;
+    font-size: 20px;
+
+}
+.Henrique {
+    text-align: center;
+    padding: 30px;
+    background-color: #123142;
+}
+
+.Julio {
+    text-align: center;
+    padding: 30px;
+    background-color: #3b657a;
+    
+}
+
+.lafa {
+    padding: 70px;
+}
+footer {
+    font-size: 40px;
+    background-color: #e9f0c9;
+}
