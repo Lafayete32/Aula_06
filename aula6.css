@@ -1,18 +1,46 @@
 *{
   margin: 0;  
 }
-header h1 {
-    background-color: #20130a;
+
+header { /*ESTILIZANDO O CABEÇALHO*/
+    background-color: #1420266c;
+    padding: 25px;
+    display: flex; /*Responsavel por tornar os itens flex e deixar lado a lado*/
+    justify-content: center; /*Organização dos comteúdos dentro do Cabeçalho*/
+    gap: 20px; /*Espaçamento entre os elementos* (h1 e img)*/
+    align-items: center /*Alinhamento dos itens*/
+    
+    
+    
+}
+
+
+header h1 { /*ESTA ESTILIZANDO O TITULO*/
     color: white;
     font-size: 40px;
-    text-align: center;
-    padding: 50px
+    
+    
 }
+
+header img { /*ESTA ESTILIZANDO A IMAGEM*/
+    width: 70px; 
+    
+   
+}
+
+
 
 .Maria {
     background-color: #142026;
-    font-size: 80px;
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
 }
+
+
 
 section p {
     color: white;
@@ -20,22 +48,28 @@ section p {
 
 }
 .Henrique {
-    text-align: center;
-    padding: 30px;
-    background-color: #123142;
+    font-size: 100px;
+    color: purple;
+    display: flex;
+    justify-content: center;
 }
 
 .Julio {
     text-align: center;
     padding: 30px;
     background-color: #3b657a;
-    
+    background-image: url(CATA-Copy-of-FACHADA-LATERAL-edited.jpeg); /*Caminho da imagem*/
+    background-position: bottom; /*posição da imagem*/
+    background-size: cover; /*Preenchimento total da imagem*/
 }
 
 .lafa {
-    padding: 70px;
+    padding: 200px;
+ 
 }
 footer {
     font-size: 40px;
     background-color: #e9f0c9;
 }
+
+
