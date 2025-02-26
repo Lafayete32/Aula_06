@@ -58,9 +58,12 @@ section p {
     text-align: center;
     padding: 30px;
     background-color: #3b657a;
-    background-image: url(CATA-Copy-of-FACHADA-LATERAL-edited.jpeg); /*Caminho da imagem*/
-    background-position: bottom; /*posição da imagem*/
-    background-size: cover; /*Preenchimento total da imagem*/
+    background-image: url(CATA-Copy-of-FACHADA-LATERAL-edited.jpeg); /*Caminho da imagem*/ /*Responsavel pela imagem de fundo*/
+    background-position: bottom; /*posicionamento da imagem*/
+    background-size: cover; /*Preenchimento total da imagem*/ /*Preechimento da área disponivel da imagem*/
+    background-repeat: no-repeat; /*Retirando a repetição da imagem no Background*/
+    display: flex; /*tornando os itens flex*/
+    justify-content: center; /*Alinhando botão ao centro*/
 }
 
 .lafa {
@@ -70,6 +73,15 @@ section p {
 footer {
     font-size: 40px;
     background-color: #e9f0c9;
+    text-align: center;
+    padding: 30px;
+
 }
 
-
+.Julio button {
+    width: 150px; /*largura do botão*/
+    padding: 10px; /*Prenchimento do botão*/
+    background-color: rgba(128, 128, 128, 0.856); /*cor de fundo com opacidade*/
+    color: white; /*cor da letra do botão*/
+    border-radius: 5px; /*Aredondamento do botão*/
+}
