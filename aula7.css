@@ -1,0 +1,91 @@
+/* Estilizando o Header */
+header {
+    background-color: white; /*Cor de fundo*/
+    padding: 25px; /*Responsavel pelo prenchimento interno/tamanho*/
+    display: flex; /*tornando os itens flex / lado a lado*/
+    justify-content: center; /*justificando o conteudo ao centro*/
+    gap: 50px; /*espaço entre os elementos*/
+    align-items: center; /*Responsavel por alinhar verticalmente os itens*/
+
+} 
+
+/*Estilizando o icone */
+header i {
+    color: rgba(255, 68, 0, 0.904); /*Cor do icone*/
+   font-size: 30px;/*Tamanho do icone*/
+}
+
+/*ESTILIZANDO O TITULO */
+header h1 {
+    font-weight: bold /*cor da letra porem podia ser color*/;
+    font-size: 60px; /*Tamanho da letra*/
+    font-family: 'Times New Roman', Times, serif;
+   
+    
+}
+
+/*FIM DO CABEÇALHO*/
+
+
+/*INICIO PRIMEIRA SESSÃO*/
+
+.primeira-section {
+    padding: 160px; /*Prenchimento / tamanho*/
+    background-color:#fe8b05; /*cor de fundo*/
+    display: flex; /*tornando flex / lado a lado */
+    justify-content: center; /*justificando conteudo ao centro*/
+    align-items: center; /*alinhamento vertical dos itens*/
+    gap: 60px; /*espaço entre os elementos*/
+}
+
+.primeira-section span {
+    font-size: 40px; /*tamanho da letra */
+    color: rgba(255, 0, 0, 0.849); /*cor da letra*/
+}
+
+
+.primeira-section-img {
+    width: 400px; /*largura da imagem*/
+    height: 500px; /*Altura da imagem*/
+}
+
+.primeira-section p {
+    color: antiquewhite; /*Cor da letra*/
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.segunda-section {
+    background-color:black;
+    padding: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+
+}
+
+.segunda-section i {
+    font-size: 50px;
+    color: rgba(255, 68, 0, 0.877);
+}
+
+.terceira-section {
+    padding: 200px;
+    background-image: url(tom-holland-revela-previsao-para-inicio-das-filmagens-de-homem-aranha-4.jpg);
+    background-position:center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.terceira-section button {
+    padding: 10px;
+    width: 150px;
+    background-color: rgba(251, 255, 0, 0.89);
+    color: black;
+}
