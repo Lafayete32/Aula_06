@@ -130,6 +130,7 @@ footer i {
     display: flex; /*Deixando as divs lado a lado*/
     gap: 10px; /*Espaçamento entre as caixas*/
     justify-content: space-evenly; /*Justificando os conteudo*/
+    font-size: 20px;
 }
 
 .sessao-04 div { /*Estilizando as DIV/CAIXAS (total 3} */
