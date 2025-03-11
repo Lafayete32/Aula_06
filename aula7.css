@@ -31,7 +31,7 @@ header h1 {
 
 .primeira-section {
     padding: 160px; /*Prenchimento / tamanho*/
-    background-color:#fe8b05; /*cor de fundo*/
+    background-color:black; /*cor de fundo*/
     display: flex; /*tornando flex / lado a lado */
     justify-content: center; /*justificando conteudo ao centro*/
     align-items: center; /*alinhamento vertical dos itens*/
@@ -78,7 +78,6 @@ header h1 {
     background-position:center top;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     display: flex;
     justify-content: center;
 }
@@ -86,6 +85,56 @@ header h1 {
 .terceira-section button {
     padding: 10px;
     width: 150px;
-    background-color: rgba(251, 255, 0, 0.89);
+    background-color: (251, 255, 0, 0.89);
     color: black;
+}
+
+/*Final da terceira sessão*/
+
+footer {
+    padding: 25px;
+    background-color: black;
+    text-align: center; /**/
+
+}
+
+footer p {
+    color: rgba(255, 255, 0, 0.904); /*cor da letra*/
+    font-size: 25px; /*tamanho da letra*/
+}
+
+footer i {
+    color: rgba(255, 255, 0, 0.877);
+    font-size: 20px; /*tamanho do icone*/
+}
+
+
+    .list-menu ul {  /* Alteração na lista não ordenada*/  
+        display: flex;  /*tornando as (li) flex/lado a lado */
+        justify-content: center; /*Deixando elas centralizada*/
+        gap: 20px; /*Espaço entre as (li) */
+    }
+
+    .list-menu ul li { /*Alteração da lista (li) (elemento filho) */
+        list-style: none; /*Removendo o estilo de lista aplicado por padrão */
+    }
+
+.list-menu ul li a {
+    text-decoration: none; /*remoção do sublinhado (Decoração do texto nenhuma)*/
+    color: rgb(0, 0, 0);;
+}
+
+.sessao-04 {
+    padding: 150px; /*Preenchimento/Tamanho da Section*/
+    background-color: rgb(22, 21, 21); /*Cor de fundo*/
+    display: flex; /*Deixando as divs lado a lado*/
+    gap: 10px; /*Espaçamento entre as caixas*/
+    justify-content: space-evenly; /*Justificando os conteudo*/
+}
+
+.sessao-04 div { /*Estilizando as DIV/CAIXAS (total 3} */
+    width: 300px; /*Largura da caixa*/
+    height: 300px; /*Altura da caixa*/
+    background-color: blue; /*Cor de fundo da caixa*/
+    color: white; /*Cor da letra*/
 }
