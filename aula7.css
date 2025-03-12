@@ -10,8 +10,8 @@ header {
 } 
 
 /*Estilizando o icone */
-header i {
-    color: rgba(255, 68, 0, 0.904); /*Cor do icone*/
+header div i {
+    color: black; /*Cor do icone*/
    font-size: 30px;/*Tamanho do icone*/
 }
 
@@ -23,6 +23,7 @@ header h1 {
    
     
 }
+
 
 /*FIM DO CABEÇALHO*/
 
@@ -69,7 +70,7 @@ header h1 {
 
 .segunda-section i {
     font-size: 50px;
-    color: rgba(255, 68, 0, 0.877);
+    color:white
 }
 
 .terceira-section {
@@ -99,12 +100,12 @@ footer {
 }
 
 footer p {
-    color: rgba(255, 255, 0, 0.904); /*cor da letra*/
+    color:white; /*cor da letra*/
     font-size: 25px; /*tamanho da letra*/
 }
 
 footer i {
-    color: rgba(255, 255, 0, 0.877);
+    color: white;
     font-size: 20px; /*tamanho do icone*/
 }
 
@@ -113,6 +114,7 @@ footer i {
         display: flex;  /*tornando as (li) flex/lado a lado */
         justify-content: center; /*Deixando elas centralizada*/
         gap: 20px; /*Espaço entre as (li) */
+        
     }
 
     .list-menu ul li { /*Alteração da lista (li) (elemento filho) */
@@ -128,14 +130,38 @@ footer i {
     padding: 150px; /*Preenchimento/Tamanho da Section*/
     background-color: rgb(22, 21, 21); /*Cor de fundo*/
     display: flex; /*Deixando as divs lado a lado*/
-    gap: 10px; /*Espaçamento entre as caixas*/
+    gap: 15px; /*Espaçamento entre as caixas*/
     justify-content: space-evenly; /*Justificando os conteudo*/
     font-size: 20px;
+   
 }
 
 .sessao-04 div { /*Estilizando as DIV/CAIXAS (total 3} */
     width: 300px; /*Largura da caixa*/
     height: 300px; /*Altura da caixa*/
-    background-color: blue; /*Cor de fundo da caixa*/
-    color: white; /*Cor da letra*/
+    background-color: gray; /*Cor de fundo da caixa*/
+   text-align: center;
+   padding: 15px;
 }
+.div-02 {
+    background-image: url(spiderman-300x300.jpg);
+    background-size: cover;
+    
+}
+
+div i {
+    color: yellow;
+}
+
+.div-03  img{
+    width: 100px;
+    height: 100px;
+}
+
+.div-03 p {
+    font-size: 17px; /*Tamanho da letra*/
+    color: white; /*Cor da letra*/
+    font-weight: 600; /*PESO DA FONTE*/
+    line-height: 25px;
+}
+
